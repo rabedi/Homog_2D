@@ -1,0 +1,19 @@
+**
+** OUTPUT REQUESTS
+**
+*Restart, write, frequency=0
+**
+** FIELD OUTPUT: F-Output-1
+**
+*Output, field
+*Node Output
+U,
+**
+** FIELD OUTPUT: F-Output-2
+**
+*Element Output, directions=YES
+S, E,
+** Printing U and F
+*NODE PRINT,NSET=NODE_BOUNDARY
+U, RF,
+*End Step

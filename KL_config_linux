@@ -1,0 +1,21 @@
+#--------------------------------#
+# Define the compiler to be used #
+CXX       := g++
+#--------------------------------#
+# flags
+CXX_FLAGS := -ggdb  -std=c++11
+
+
+# And the method to build libraries
+AR=ar cru
+RANLIB=ranlib
+
+# Define where to look for include files
+
+INCLUDES=  -I./ \
+			-I$(TOP_DIR) \
+                        -I$(TOP_DIR)/include/ \
+			
+LIBS =  $(LIB_PATHM) $(LIBS_NEW)
+
+WARNING_SUPPRESS = -Wno-sign-compare

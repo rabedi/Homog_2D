@@ -1,0 +1,780 @@
+*Material, name=BLACK
+*Density
+1750.,
+*Elastic
+ 7e+10, 0.3
+**  Use the information in the header to complete these fields under MATERIAL
+*Material, name=GREY
+*Density
+2500.,
+*Elastic
+ 1e+11, 0.25
+**
+** STEP: Step-1
+**
+*Step, name=Step-1, nlgeom=No
+*Static
+1., 1., 1e-05, 1.
+**
+** BOUNDARY CONDITIONS
+**
+*Nset, nset=NODE_1
+1
+*Nset, nset=NODE_2
+2
+*Nset, nset=NODE_5
+5
+*Nset, nset=NODE_7
+7
+*Nset, nset=NODE_17
+17
+*Nset, nset=NODE_19
+19
+*Nset, nset=NODE_21
+21
+*Nset, nset=NODE_32
+32
+*Nset, nset=NODE_35
+35
+*Nset, nset=NODE_41
+41
+*Nset, nset=NODE_43
+43
+*Nset, nset=NODE_45
+45
+*Nset, nset=NODE_53
+53
+*Nset, nset=NODE_55
+55
+*Nset, nset=NODE_57
+57
+*Nset, nset=NODE_65
+65
+*Nset, nset=NODE_75
+75
+*Nset, nset=NODE_77
+77
+*Nset, nset=NODE_79
+79
+*Nset, nset=NODE_87
+87
+*Nset, nset=NODE_89
+89
+*Nset, nset=NODE_91
+91
+*Nset, nset=NODE_99
+99
+*Nset, nset=NODE_103
+103
+*Nset, nset=NODE_105
+105
+*Nset, nset=NODE_107
+107
+*Nset, nset=NODE_115
+115
+*Nset, nset=NODE_117
+117
+*Nset, nset=NODE_119
+119
+*Nset, nset=NODE_127
+127
+*Nset, nset=NODE_129
+129
+*Nset, nset=NODE_131
+131
+*Nset, nset=NODE_142
+142
+*Nset, nset=NODE_145
+145
+*Nset, nset=NODE_153
+153
+*Nset, nset=NODE_155
+155
+*Nset, nset=NODE_157
+157
+*Nset, nset=NODE_165
+165
+*Nset, nset=NODE_167
+167
+*Nset, nset=NODE_169
+169
+*Nset, nset=NODE_177
+177
+*Nset, nset=NODE_179
+179
+*Nset, nset=NODE_181
+181
+*Nset, nset=NODE_189
+189
+*Nset, nset=NODE_191
+191
+*Nset, nset=NODE_193
+193
+*Nset, nset=NODE_201
+201
+*Nset, nset=NODE_203
+203
+*Nset, nset=NODE_205
+205
+*Nset, nset=NODE_213
+213
+*Nset, nset=NODE_215
+215
+*Nset, nset=NODE_217
+217
+*Nset, nset=NODE_225
+225
+*Nset, nset=NODE_227
+227
+*Nset, nset=NODE_229
+229
+*Nset, nset=NODE_237
+237
+*Nset, nset=NODE_239
+239
+*Nset, nset=NODE_241
+241
+*Nset, nset=NODE_249
+249
+*Nset, nset=NODE_251
+251
+*Nset, nset=NODE_253
+253
+*Nset, nset=NODE_261
+261
+*Nset, nset=NODE_263
+263
+*Nset, nset=NODE_265
+265
+*Nset, nset=NODE_276
+276
+*Nset, nset=NODE_279
+279
+*Nset, nset=NODE_281
+281
+*Nset, nset=NODE_287
+287
+*Nset, nset=NODE_289
+289
+*Nset, nset=NODE_291
+291
+*Nset, nset=NODE_299
+299
+*Nset, nset=NODE_301
+301
+*Nset, nset=NODE_303
+303
+*Nset, nset=NODE_304
+304
+*Nset, nset=NODE_307
+307
+*Nset, nset=NODE_310
+310
+*Nset, nset=NODE_527
+527
+*Nset, nset=NODE_530
+530
+*Nset, nset=NODE_533
+533
+*Nset, nset=NODE_742
+742
+*Nset, nset=NODE_745
+745
+*Nset, nset=NODE_748
+748
+*Nset, nset=NODE_963
+963
+*Nset, nset=NODE_966
+966
+*Nset, nset=NODE_969
+969
+*Nset, nset=NODE_1184
+1184
+*Nset, nset=NODE_1187
+1187
+*Nset, nset=NODE_1190
+1190
+*Nset, nset=NODE_1377
+1377
+*Nset, nset=NODE_1380
+1380
+*Nset, nset=NODE_1383
+1383
+*Nset, nset=NODE_1556
+1556
+*Nset, nset=NODE_1559
+1559
+*Nset, nset=NODE_1562
+1562
+*Nset, nset=NODE_1745
+1745
+*Nset, nset=NODE_1748
+1748
+*Nset, nset=NODE_1751
+1751
+*Nset, nset=NODE_1920
+1920
+*Nset, nset=NODE_1923
+1923
+*Nset, nset=NODE_1926
+1926
+*Nset, nset=NODE_2059
+2059
+*Nset, nset=NODE_2062
+2062
+*Nset, nset=NODE_2065
+2065
+*Nset, nset=NODE_2182
+2182
+*Nset, nset=NODE_2185
+2185
+*Nset, nset=NODE_2188
+2188
+*Nset, nset=NODE_2308
+2308
+*Nset, nset=NODE_2432
+2432
+*Nset, nset=NODE_2567
+2567
+*Nset, nset=NODE_2718
+2718
+*Nset, nset=NODE_2879
+2879
+*Nset, nset=NODE_3064
+3064
+*Nset, nset=NODE_3249
+3249
+*Nset, nset=NODE_3252
+3252
+*Nset, nset=NODE_3255
+3255
+*Nset, nset=NODE_3461
+3461
+*Nset, nset=NODE_3641
+3641
+*Nset, nset=NODE_3800
+3800
+*Nset, nset=NODE_3803
+3803
+*Nset, nset=NODE_3806
+3806
+*Nset, nset=NODE_3939
+3939
+*Nset, nset=NODE_4102
+4102
+*Nset, nset=NODE_4311
+4311
+*Nset, nset=NODE_4314
+4314
+*Nset, nset=NODE_4317
+4317
+*Nset, nset=NODE_4542
+4542
+*Nset, nset=NODE_4545
+4545
+*Nset, nset=NODE_4548
+4548
+*Nset, nset=NODE_4799
+4799
+*Nset, nset=NODE_4802
+4802
+*Nset, nset=NODE_4805
+4805
+*Nset, nset=NODE_5027
+5027
+*Nset, nset=NODE_5219
+5219
+*Nset, nset=NODE_5404
+5404
+*Nset, nset=NODE_5561
+5561
+*Nset, nset=NODE_5559
+5559
+*Nset, nset=NODE_5557
+5557
+*Nset, nset=NODE_5556
+5556
+*Nset, nset=NODE_5555
+5555
+*Nset, nset=NODE_5548
+5548
+*Nset, nset=NODE_5543
+5543
+*Nset, nset=NODE_5540
+5540
+*Nset, nset=NODE_5536
+5536
+*Nset, nset=NODE_5534
+5534
+*Nset, nset=NODE_5533
+5533
+*Nset, nset=NODE_5532
+5532
+*Nset, nset=NODE_5525
+5525
+*Nset, nset=NODE_5520
+5520
+*Nset, nset=NODE_5519
+5519
+*Nset, nset=NODE_5518
+5518
+*Nset, nset=NODE_5516
+5516
+*Nset, nset=NODE_5514
+5514
+*Nset, nset=NODE_5513
+5513
+*Nset, nset=NODE_5512
+5512
+*Nset, nset=NODE_5505
+5505
+*Nset, nset=NODE_5504
+5504
+*Nset, nset=NODE_5503
+5503
+*Nset, nset=NODE_5496
+5496
+*Nset, nset=NODE_5495
+5495
+*Nset, nset=NODE_5494
+5494
+*Nset, nset=NODE_5487
+5487
+*Nset, nset=NODE_5482
+5482
+*Nset, nset=NODE_5481
+5481
+*Nset, nset=NODE_5479
+5479
+*Nset, nset=NODE_5477
+5477
+*Nset, nset=NODE_5476
+5476
+*Nset, nset=NODE_5475
+5475
+*Nset, nset=NODE_5468
+5468
+*Nset, nset=NODE_5467
+5467
+*Nset, nset=NODE_5466
+5466
+*Nset, nset=NODE_5459
+5459
+*Nset, nset=NODE_5452
+5452
+*Nset, nset=NODE_5451
+5451
+*Nset, nset=NODE_5450
+5450
+*Nset, nset=NODE_5443
+5443
+*Nset, nset=NODE_5442
+5442
+*Nset, nset=NODE_5441
+5441
+*Nset, nset=NODE_5434
+5434
+*Nset, nset=NODE_5433
+5433
+*Nset, nset=NODE_5432
+5432
+*Nset, nset=NODE_5425
+5425
+*Nset, nset=NODE_5420
+5420
+*Nset, nset=NODE_5418
+5418
+*Nset, nset=NODE_5416
+5416
+*Nset, nset=NODE_5415
+5415
+*Nset, nset=NODE_5413
+5413
+*Nset, nset=NODE_5414
+5414
+*Nset, nset=NODE_5410
+5410
+*Nset, nset=NODE_5406
+5406
+*Nset, nset=NODE_5225
+5225
+*Nset, nset=NODE_5030
+5030
+*Nset, nset=NODE_4807
+4807
+*Nset, nset=NODE_4554
+4554
+*Nset, nset=NODE_4319
+4319
+*Nset, nset=NODE_4108
+4108
+*Nset, nset=NODE_3941
+3941
+*Nset, nset=NODE_3808
+3808
+*Nset, nset=NODE_3647
+3647
+*Nset, nset=NODE_3472
+3472
+*Nset, nset=NODE_3468
+3468
+*Nset, nset=NODE_3464
+3464
+*Nset, nset=NODE_3265
+3265
+*Nset, nset=NODE_3261
+3261
+*Nset, nset=NODE_3257
+3257
+*Nset, nset=NODE_3078
+3078
+*Nset, nset=NODE_3074
+3074
+*Nset, nset=NODE_3070
+3070
+*Nset, nset=NODE_2885
+2885
+*Nset, nset=NODE_2720
+2720
+*Nset, nset=NODE_2569
+2569
+*Nset, nset=NODE_2434
+2434
+*Nset, nset=NODE_2311
+2311
+*Nset, nset=NODE_2190
+2190
+*Nset, nset=NODE_2075
+2075
+*Nset, nset=NODE_2071
+2071
+*Nset, nset=NODE_2067
+2067
+*Nset, nset=NODE_1936
+1936
+*Nset, nset=NODE_1932
+1932
+*Nset, nset=NODE_1928
+1928
+*Nset, nset=NODE_1761
+1761
+*Nset, nset=NODE_1757
+1757
+*Nset, nset=NODE_1753
+1753
+*Nset, nset=NODE_1572
+1572
+*Nset, nset=NODE_1568
+1568
+*Nset, nset=NODE_1564
+1564
+*Nset, nset=NODE_1393
+1393
+*Nset, nset=NODE_1389
+1389
+*Nset, nset=NODE_1385
+1385
+*Nset, nset=NODE_1200
+1200
+*Nset, nset=NODE_1196
+1196
+*Nset, nset=NODE_1192
+1192
+*Nset, nset=NODE_979
+979
+*Nset, nset=NODE_975
+975
+*Nset, nset=NODE_971
+971
+*Nset, nset=NODE_756
+756
+*Nset, nset=NODE_539
+539
+*Nset, nset=NODE_312
+312
+*Nset, nset=NODE_14
+14
+*Nset, nset=NODE_10
+10
+*Nset, nset=NODE_4
+4
+*Nset, nset=NODE_BOUNDARY
+1,	2,	5,	7,	17,	19,	21,	32,	35,	41,	43,	45,	53,	55,	57,	65
+75,	77,	79,	87,	89,	91,	99,	103,	105,	107,	115,	117,	119,	127,	129,	131
+142,	145,	153,	155,	157,	165,	167,	169,	177,	179,	181,	189,	191,	193,	201,	203
+205,	213,	215,	217,	225,	227,	229,	237,	239,	241,	249,	251,	253,	261,	263,	265
+276,	279,	281,	287,	289,	291,	299,	301,	303,	304,	307,	310,	527,	530,	533,	742
+745,	748,	963,	966,	969,	1184,	1187,	1190,	1377,	1380,	1383,	1556,	1559,	1562,	1745,	1748
+1751,	1920,	1923,	1926,	2059,	2062,	2065,	2182,	2185,	2188,	2308,	2432,	2567,	2718,	2879,	3064
+3249,	3252,	3255,	3461,	3641,	3800,	3803,	3806,	3939,	4102,	4311,	4314,	4317,	4542,	4545,	4548
+4799,	4802,	4805,	5027,	5219,	5404,	5561,	5559,	5557,	5556,	5555,	5548,	5543,	5540,	5536,	5534
+5533,	5532,	5525,	5520,	5519,	5518,	5516,	5514,	5513,	5512,	5505,	5504,	5503,	5496,	5495,	5494
+5487,	5482,	5481,	5479,	5477,	5476,	5475,	5468,	5467,	5466,	5459,	5452,	5451,	5450,	5443,	5442
+5441,	5434,	5433,	5432,	5425,	5420,	5418,	5416,	5415,	5413,	5414,	5410,	5406,	5225,	5030,	4807
+4554,	4319,	4108,	3941,	3808,	3647,	3472,	3468,	3464,	3265,	3261,	3257,	3078,	3074,	3070,	2885
+2720,	2569,	2434,	2311,	2190,	2075,	2071,	2067,	1936,	1932,	1928,	1761,	1757,	1753,	1572,	1568
+1564,	1393,	1389,	1385,	1200,	1196,	1192,	979,	975,	971,	756,	539,	312,	14,	10,	4
+*BOUNDARY
+NODE_1, 1, 1, -0.5
+NODE_1, 2, 2, -0
+NODE_2, 2, 2, -0
+NODE_5, 2, 2, -0
+NODE_7, 2, 2, -0
+NODE_17, 2, 2, -0
+NODE_19, 2, 2, -0
+NODE_21, 2, 2, -0
+NODE_32, 2, 2, -0
+NODE_35, 2, 2, -0
+NODE_41, 2, 2, -0
+NODE_43, 2, 2, -0
+NODE_45, 2, 2, -0
+NODE_53, 2, 2, -0
+NODE_55, 2, 2, -0
+NODE_57, 2, 2, -0
+NODE_65, 2, 2, -0
+NODE_75, 2, 2, -0
+NODE_77, 2, 2, -0
+NODE_79, 2, 2, -0
+NODE_87, 2, 2, -0
+NODE_89, 2, 2, -0
+NODE_91, 2, 2, -0
+NODE_99, 2, 2, -0
+NODE_103, 2, 2, -0
+NODE_105, 2, 2, -0
+NODE_107, 2, 2, -0
+NODE_115, 2, 2, -0
+NODE_117, 2, 2, -0
+NODE_119, 2, 2, -0
+NODE_127, 2, 2, -0
+NODE_129, 2, 2, -0
+NODE_131, 2, 2, -0
+NODE_142, 2, 2, -0
+NODE_145, 2, 2, 0
+NODE_153, 2, 2, 0
+NODE_155, 2, 2, 0
+NODE_157, 2, 2, 0
+NODE_165, 2, 2, 0
+NODE_167, 2, 2, 0
+NODE_169, 2, 2, 0
+NODE_177, 2, 2, 0
+NODE_179, 2, 2, 0
+NODE_181, 2, 2, 0
+NODE_189, 2, 2, 0
+NODE_191, 2, 2, 0
+NODE_193, 2, 2, 0
+NODE_201, 2, 2, 0
+NODE_203, 2, 2, 0
+NODE_205, 2, 2, 0
+NODE_213, 2, 2, 0
+NODE_215, 2, 2, 0
+NODE_217, 2, 2, 0
+NODE_225, 2, 2, 0
+NODE_227, 2, 2, 0
+NODE_229, 2, 2, 0
+NODE_237, 2, 2, 0
+NODE_239, 2, 2, 0
+NODE_241, 2, 2, 0
+NODE_249, 2, 2, 0
+NODE_251, 2, 2, 0
+NODE_253, 2, 2, 0
+NODE_261, 2, 2, 0
+NODE_263, 2, 2, 0
+NODE_265, 2, 2, 0
+NODE_276, 2, 2, 0
+NODE_279, 2, 2, 0
+NODE_281, 2, 2, 0
+NODE_287, 2, 2, 0
+NODE_289, 2, 2, 0
+NODE_291, 2, 2, 0
+NODE_299, 2, 2, 0
+NODE_301, 2, 2, 0
+NODE_303, 1, 1, 0.5
+NODE_303, 2, 2, 0
+NODE_304, 1, 1, 0.5
+NODE_307, 1, 1, 0.5
+NODE_310, 1, 1, 0.5
+NODE_527, 1, 1, 0.5
+NODE_530, 1, 1, 0.5
+NODE_533, 1, 1, 0.5
+NODE_742, 1, 1, 0.5
+NODE_745, 1, 1, 0.5
+NODE_748, 1, 1, 0.5
+NODE_963, 1, 1, 0.5
+NODE_966, 1, 1, 0.5
+NODE_969, 1, 1, 0.5
+NODE_1184, 1, 1, 0.5
+NODE_1187, 1, 1, 0.5
+NODE_1190, 1, 1, 0.5
+NODE_1377, 1, 1, 0.5
+NODE_1380, 1, 1, 0.5
+NODE_1383, 1, 1, 0.5
+NODE_1556, 1, 1, 0.5
+NODE_1559, 1, 1, 0.5
+NODE_1562, 1, 1, 0.5
+NODE_1745, 1, 1, 0.5
+NODE_1748, 1, 1, 0.5
+NODE_1751, 1, 1, 0.5
+NODE_1920, 1, 1, 0.5
+NODE_1923, 1, 1, 0.5
+NODE_1926, 1, 1, 0.5
+NODE_2059, 1, 1, 0.5
+NODE_2062, 1, 1, 0.5
+NODE_2065, 1, 1, 0.5
+NODE_2182, 1, 1, 0.5
+NODE_2185, 1, 1, 0.5
+NODE_2188, 1, 1, 0.5
+NODE_2308, 1, 1, 0.5
+NODE_2432, 1, 1, 0.5
+NODE_2567, 1, 1, 0.5
+NODE_2718, 1, 1, 0.5
+NODE_2879, 1, 1, 0.5
+NODE_3064, 1, 1, 0.5
+NODE_3249, 1, 1, 0.5
+NODE_3252, 1, 1, 0.5
+NODE_3255, 1, 1, 0.5
+NODE_3461, 1, 1, 0.5
+NODE_3641, 1, 1, 0.5
+NODE_3800, 1, 1, 0.5
+NODE_3803, 1, 1, 0.5
+NODE_3806, 1, 1, 0.5
+NODE_3939, 1, 1, 0.5
+NODE_4102, 1, 1, 0.5
+NODE_4311, 1, 1, 0.5
+NODE_4314, 1, 1, 0.5
+NODE_4317, 1, 1, 0.5
+NODE_4542, 1, 1, 0.5
+NODE_4545, 1, 1, 0.5
+NODE_4548, 1, 1, 0.5
+NODE_4799, 1, 1, 0.5
+NODE_4802, 1, 1, 0.5
+NODE_4805, 1, 1, 0.5
+NODE_5027, 1, 1, 0.5
+NODE_5219, 1, 1, 0.5
+NODE_5404, 1, 1, 0.5
+NODE_5561, 1, 1, 0.5
+NODE_5561, 2, 2, 0
+NODE_5559, 2, 2, 0
+NODE_5557, 2, 2, 0
+NODE_5556, 2, 2, 0
+NODE_5555, 2, 2, 0
+NODE_5548, 2, 2, 0
+NODE_5543, 2, 2, 0
+NODE_5540, 2, 2, 0
+NODE_5536, 2, 2, 0
+NODE_5534, 2, 2, 0
+NODE_5533, 2, 2, 0
+NODE_5532, 2, 2, 0
+NODE_5525, 2, 2, 0
+NODE_5520, 2, 2, 0
+NODE_5519, 2, 2, 0
+NODE_5518, 2, 2, 0
+NODE_5516, 2, 2, 0
+NODE_5514, 2, 2, 0
+NODE_5513, 2, 2, 0
+NODE_5512, 2, 2, 0
+NODE_5505, 2, 2, 0
+NODE_5504, 2, 2, 0
+NODE_5503, 2, 2, 0
+NODE_5496, 2, 2, 0
+NODE_5495, 2, 2, 0
+NODE_5494, 2, 2, 0
+NODE_5487, 2, 2, 0
+NODE_5482, 2, 2, 0
+NODE_5481, 2, 2, 0
+NODE_5479, 2, 2, 0
+NODE_5477, 2, 2, 0
+NODE_5476, 2, 2, 0
+NODE_5475, 2, 2, 0
+NODE_5468, 2, 2, 0
+NODE_5467, 2, 2, 0
+NODE_5466, 2, 2, 0
+NODE_5459, 2, 2, 0
+NODE_5452, 2, 2, 0
+NODE_5451, 2, 2, 0
+NODE_5450, 2, 2, 0
+NODE_5443, 2, 2, 0
+NODE_5442, 2, 2, 0
+NODE_5441, 2, 2, 0
+NODE_5434, 2, 2, 0
+NODE_5433, 2, 2, 0
+NODE_5432, 2, 2, 0
+NODE_5425, 2, 2, 0
+NODE_5420, 2, 2, 0
+NODE_5418, 2, 2, 0
+NODE_5416, 2, 2, 0
+NODE_5415, 2, 2, 0
+NODE_5413, 2, 2, 0
+NODE_5414, 1, 1, -0.5
+NODE_5414, 2, 2, 0
+NODE_5410, 1, 1, -0.5
+NODE_5406, 1, 1, -0.5
+NODE_5225, 1, 1, -0.5
+NODE_5030, 1, 1, -0.5
+NODE_4807, 1, 1, -0.5
+NODE_4554, 1, 1, -0.5
+NODE_4319, 1, 1, -0.5
+NODE_4108, 1, 1, -0.5
+NODE_3941, 1, 1, -0.5
+NODE_3808, 1, 1, -0.5
+NODE_3647, 1, 1, -0.5
+NODE_3472, 1, 1, -0.5
+NODE_3468, 1, 1, -0.5
+NODE_3464, 1, 1, -0.5
+NODE_3265, 1, 1, -0.5
+NODE_3261, 1, 1, -0.5
+NODE_3257, 1, 1, -0.5
+NODE_3078, 1, 1, -0.5
+NODE_3074, 1, 1, -0.5
+NODE_3070, 1, 1, -0.5
+NODE_2885, 1, 1, -0.5
+NODE_2720, 1, 1, -0.5
+NODE_2569, 1, 1, -0.5
+NODE_2434, 1, 1, -0.5
+NODE_2311, 1, 1, -0.5
+NODE_2190, 1, 1, -0.5
+NODE_2075, 1, 1, -0.5
+NODE_2071, 1, 1, -0.5
+NODE_2067, 1, 1, -0.5
+NODE_1936, 1, 1, -0.5
+NODE_1932, 1, 1, -0.5
+NODE_1928, 1, 1, -0.5
+NODE_1761, 1, 1, -0.5
+NODE_1757, 1, 1, -0.5
+NODE_1753, 1, 1, -0.5
+NODE_1572, 1, 1, -0.5
+NODE_1568, 1, 1, -0.5
+NODE_1564, 1, 1, -0.5
+NODE_1393, 1, 1, -0.5
+NODE_1389, 1, 1, -0.5
+NODE_1385, 1, 1, -0.5
+NODE_1200, 1, 1, -0.5
+NODE_1196, 1, 1, -0.5
+NODE_1192, 1, 1, -0.5
+NODE_979, 1, 1, -0.5
+NODE_975, 1, 1, -0.5
+NODE_971, 1, 1, -0.5
+NODE_756, 1, 1, -0.5
+NODE_539, 1, 1, -0.5
+NODE_312, 1, 1, -0.5
+NODE_14, 1, 1, -0.5
+NODE_10, 1, 1, -0.5
+NODE_4, 1, 1, -0.5
+**
+** OUTPUT REQUESTS
+**
+*Restart, write, frequency=0
+**
+** FIELD OUTPUT: F-Output-1
+**
+*Output, field
+*Node Output
+U,
+**
+** FIELD OUTPUT: F-Output-2
+**
+*Element Output, directions=YES
+S, E,
+** Printing U and F
+*NODE PRINT,NSET=NODE_BOUNDARY
+U, RF,
+*End Step

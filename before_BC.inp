@@ -1,0 +1,20 @@
+*Material, name=BLACK
+*Density
+1750.,
+*Elastic
+ 7e+10, 0.3
+**  Use the information in the header to complete these fields under MATERIAL
+*Material, name=GREY
+*Density
+2500.,
+*Elastic
+ 1e+11, 0.25
+**
+** STEP: Step-1
+**
+*Step, name=Step-1, nlgeom=No
+*Static
+1., 1., 1e-05, 1.
+**
+** BOUNDARY CONDITIONS
+**

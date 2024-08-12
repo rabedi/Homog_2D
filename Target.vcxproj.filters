@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{39e0a526-0e84-40ad-a25c-101d990f3662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c6c84380-ba93-4758-bc96-0938653961ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\commonMacros.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileIOMacros.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\global.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\globalMacros.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LAfuncs.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpaceMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LAfuncs.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpaceMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

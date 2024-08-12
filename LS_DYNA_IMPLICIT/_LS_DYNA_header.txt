@@ -1,0 +1,73 @@
+$# LS-DYNA Keyword file created by LS-PrePost(R) V4.10 (Beta)-07Dec2022
+$# Created on Dec-21-2022 (07:56:27)
+*KEYWORD memory=30000000
+*TITLE
+$#                                                                         title
+LS-DYNA keyword deck by LS-PrePost
+*CONTROL_IMPLICIT_GENERAL
+$#  imflag       dt0    imform      nsbs       igs     cnstn      form    zero_v
+         1       1.0         2         1         2         0         0         0
+*CONTROL_IMPLICIT_SOLUTION
+$#  nsolvr    ilimit    maxref     dctol     ectol     rctol     lstol    abstol
+         1        11        15     0.001      0.011.00000E10       0.91.0000E-10
+$#   dnorm    diverg     istif   nlprint    nlnorm   d3itctl     cpchk
+         2         1         1         0         2         0         0
+$#  arcctl    arcdir    arclen    arcmth    arcdmp    arcpsi    arcalf    arctim
+         0         0       0.0         1         2       0.0       0.0       0.0
+$#   lsmtd     lsdir      irad      srad      awgt      sred
+         4         2       0.0       0.0       0.0       0.0
+*CONTROL_TERMINATION
+$#  endtim    endcyc     dtmin    endeng    endmas     nosol
+       1.0         0       0.0       0.01.000000E8         0
+*DATABASE_BNDOUT
+$#      dt    binary      lcur     ioopt   option1   option2   option3   option4
+       1.0         0         0         1         0         0         0         0
+*DATABASE_ELOUT
+$#      dt    binary      lcur     ioopt   option1   option2   option3   option4
+       1.0         0         0         1         0         0         0         0
+*DATABASE_NODFOR
+$#      dt    binary      lcur     ioopt
+       1.0         0         0         1
+*DATABASE_NODAL_FORCE_GROUP
+$#    nsid       cid
+         1         0
+*DATABASE_NODOUT
+$#      dt    binary      lcur     ioopt   option1   option2
+       1.0         0         0         1       0.0         0
+*DATABASE_SPCFORC
+$#      dt    binary      lcur     ioopt
+       1.0         0         0         1
+*DATABASE_BINARY_D3PLOT
+$#      dt      lcdt      beam     npltc    psetid
+       1.0         0         0         0         0
+*MAT_ELASTIC_TITLE
+black_mat
+$#     mid        ro         e        pr        da        db  not used
+         1       1.0     450.0      0.21       0.0       0.0       0.0
+*MAT_ELASTIC_TITLE
+gray_mat
+$#     mid        ro         e        pr        da        db  not used
+         2       1.0     100.0      0.35       0.0       0.0       0.0
+*PART
+$#                                                                         title
+BLACK
+$#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
+         1         1         1         0         0         0         0         0
+*SECTION_SHELL_TITLE
+BLACK
+$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
+         1        13       0.0         4       1.0         0         0         1
+$#      t1        t2        t3        t4      nloc     marea      idof    edgset
+       1.0       1.0       1.0       1.0       0.0       0.0       0.0         0
+*PART
+$#                                                                         title
+GREY
+$#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
+         2         2         2         0         0         0         0         0
+*SECTION_SHELL_TITLE
+GREY
+$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
+         2        13       0.0         4       1.0         0         0         1
+$#      t1        t2        t3        t4      nloc     marea      idof    edgset
+       1.0       1.0       1.0       1.0       0.0       0.0       0.0         0
+ 
